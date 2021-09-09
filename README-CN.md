@@ -22,34 +22,41 @@ Padda是一个可以在里面编写JSX脚本代码的插件
 
 ![success output](./res/Snip20210909_1.png)
 
-and when error occurs, you can see exception detail in the output field.
+当脚本运行错误，它也会将错误的行号，错误信息进行输出，方便你定位问题
 
 ![success output](./res/Snip20210909_2.png)
 
 
-> notce: debug is not implemented!
+> 注意！ 目前还不支持单步调试代码
 
-### 2. execute local file
+### 2. 执行本地jsx文件
 
-you can quickly execute a jsx file on disk, without using File -> Script -> Select...
+你可以方便的选择一个本地jsx文件，进行允许，它有自动记忆功能，不用每次都挑文件
 
-### 3. Layer Info detect
 
-when selected a layer, it shows the layer information in JSON format
+### 3. 图层信息
+
+当你选中了某个图层，它会将此图层的所有属性，以JSON的格式呈现出来
 
 ![success output](./res/Snip20210909_3.png)
 
 
-### 4. Snippets
+### 4. 代码快照
 
-easy way to manage your code snippet, you can save your code and use in future.
+代码快照是一个非常实用的功能，你可以将某一段代码临时保存下来， 便于后续调用，这样在测试多功能的时候，就不用一直注释来注释去了
 
 
-## Usage
+## 使用方法
 
-download latest release from [release page](https://github.com/cutterman-cn/padda/releases)
+从最新的发布界面下载安装包 [release page](https://github.com/cutterman-cn/padda/releases)
 
-unzip the installer zip and double click to install
+解压，双击安装，下一步，下一步……
 
-after installation complete, restart your photoshop and open the panel from Window -> Extensions -> Padda - devtool
+安装完成后，重启PS，菜单栏 ->  扩展程序 -> Padda - devtool
+
+
+## 意见和建议
+
+如果有遇到bug，或者有更好的想法，欢迎提issue
+
 
