@@ -1,6 +1,6 @@
 # Padda
 
-[中文介绍](./READ-CN.md)
+[中文介绍](./README-CN.md)
 
 A plugin panel where you can coding JSX script.
 
