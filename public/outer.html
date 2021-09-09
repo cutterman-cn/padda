@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+    <head><title>Padda</title></head>
+<style>
+html, body, iframe {
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+}
+
+</style>
+    <body>
+        <iframe src="http://localhost:3000/" id="ifr"></iframe>
+        <script>
+            function setIframeSize() {
+                var ifr = document.getElementById('ifr');
+                ifr.style.width = window.innerWidth + 'px';
+                ifr.style.height = window.innerHeight + 'px';
+            }
+            window.onresize = function() {
+                setIframeSize();
+            }
+            setIframeSize();
+        </script>
+    </body>
+</html>

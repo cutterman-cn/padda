@@ -1,0 +1,21 @@
+{
+    "name": "Padda",
+    "description": "a dev assistant for photoshop scriting",
+    "code": "Code",
+    "file": "Excute File",
+    "layer": "Layer Info",
+    "snippets": "Snippets",
+    "run": "Run",
+    "clear": "Clear",
+    "save_snippets": "Save Snippets",
+    "list_snippets": "Snippets",
+    "list_snippets_title": "Snippets List",
+    "save_snippets_name": "Save Snippets Name",
+    "snippet_name": "Snippet Name",
+    "awesome_name": "some awesome name",
+    "cancel" : "Cancel",
+    "save": "Save",
+    "file_title": "Select a local file to execute",
+    "select_button": "Select...",
+    "delete_btn": "Delete"
+}

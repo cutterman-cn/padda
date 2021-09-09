@@ -1,0 +1,21 @@
+{
+    "name": "Padda",
+    "description": "脚本开发辅助插件",
+    "code": "代码",
+    "file": "运行文件",
+    "layer": "图层信息",
+    "snippets": "代码快照",
+    "run": "运行",
+    "clear": "清除",
+    "save_snippets": "保存代码",
+    "list_snippets": "快照",
+    "list_snippets_title": "代码快照",
+    "save_snippets_name": "填写快照名称",
+    "snippet_name": "脚本名称",
+    "awesome_name": "取个厉害的名字",
+    "cancel" : "取消",
+    "save": "保存",
+    "file_title": "请选择一个本地脚本文件",
+    "select_button": "选择...",
+    "delete_btn": "删除"
+}

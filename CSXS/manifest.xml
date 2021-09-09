@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ExtensionManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ExtensionBundleId="com.cutterman.padda" ExtensionBundleVersion="1.0.0" Version="6.0">
+	<Author> xiaoqiang </Author>
+    <ExtensionList>
+        <Extension Id="com.cutterman.padda" Version="1.0.0"/>
+    </ExtensionList>
+    <ExecutionEnvironment>
+        <HostList>
+            <Host Name="PHXS" Version="16.0" />
+            <Host Name="PHSP" Version="16.0" />
+        </HostList>
+        <LocaleList>
+            <Locale Code="All"/>
+        </LocaleList>
+        <RequiredRuntimeList>
+            <RequiredRuntime Name="CSXS" Version="6.0"/>
+        </RequiredRuntimeList>
+    </ExecutionEnvironment>
+    <DispatchInfoList>
+        <Extension Id="com.cutterman.padda">
+            <DispatchInfo>
+                <Resources>
+                    <MainPath>./Panel/index.html</MainPath>
+                    <ScriptPath>./Panel/jsx/init.jsx</ScriptPath>
+                    <CEFCommandLine>
+                        <Parameter>--enable-nodejs</Parameter>
+                    </CEFCommandLine>
+                </Resources>
+                <Lifecycle>
+                    <AutoVisible>true</AutoVisible>
+                </Lifecycle>
+                <UI>
+                    <Type>Modeless</Type>
+                    <Menu>Padda - devtool</Menu>
+                    <Geometry>
+                        <Size>
+                            <Width>800</Width>
+                            <Height>600</Height>
+                        </Size>
+                        <MaxSize>
+                            <Width>2048</Width>
+                            <Height>2048</Height>
+                        </MaxSize>
+                        <MinSize>
+                            <Width>500</Width>
+                            <Height>300</Height>
+                        </MinSize>
+                    </Geometry>
+                    <Icons>
+                        <Icon Type="Normal">./build/images/panel_icon_light.png</Icon>
+                        <Icon Type="RollOver">./build/images/panel_icon_light.png</Icon>
+                        <Icon Type="DarkNormal">./build/images/panel_icon_dark.png</Icon>
+                        <Icon Type="DarkRollOver">./build/images/panel_icon_dark.png</Icon>
+                    </Icons>					
+                </UI>
+            </DispatchInfo>
+        </Extension>
+    </DispatchInfoList>
+</ExtensionManifest>

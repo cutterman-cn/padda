@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionList>
+    <Extension Id="com.cutterman.padda_dev">
+        <HostList>
+            <Host Name="PHXS" Port="8011"/>
+        </HostList>
+    </Extension>
+    <Extension Id="com.cutterman.padda">
+        <HostList>
+            <Host Name="PHXS" Port="8012"/>
+        </HostList>
+    </Extension>
+</ExtensionList>
